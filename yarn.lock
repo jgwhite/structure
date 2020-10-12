@@ -1829,6 +1829,7 @@ __metadata:
     ember-source-channel-url: ^3.0.0
     ember-svg-jar: ^2.2.3
     ember-template-lint: ^2.11.0
+    ember-test-selectors: ^5.0.0
     ember-try: ^1.4.0
     eslint: ^7.8.0
     eslint-plugin-ember: ^8.13.0
@@ -9150,6 +9151,17 @@ __metadata:
   bin:
     ember-template-recast: bin/ember-template-recast.js
   checksum: 3d45fb84fd61ebf6d9898310a718977042012efd95d08ab5ae09559ef91689754f6e0525a548aedcbd35d7310f87f0a8a2ead5ef25479aa082fa6009af83e121
+  languageName: node
+  linkType: hard
+
+"ember-test-selectors@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "ember-test-selectors@npm:5.0.0"
+  dependencies:
+    calculate-cache-key-for-tree: ^2.0.0
+    ember-cli-babel: ^7.22.1
+    ember-cli-version-checker: ^5.1.1
+  checksum: 436acc15c3ef7c24f924efa7b259bc498cec33f72640a00624529832b6b1002d8d876b2859686aa0477221534e25e58477e99369bfdc96f07fa1616d0bc9e177
   languageName: node
   linkType: hard
 

@@ -4,6 +4,9 @@ const EmberAddon = require('ember-cli/lib/broccoli/ember-addon');
 
 module.exports = function(defaults) {
   let app = new EmberAddon(defaults, {
+    'ember-test-selectors': {
+      strip: true,
+    },
     // See https://github.com/adopted-ember-addons/ember-cli-sass
     sassOptions: {
       // TBD...
